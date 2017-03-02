@@ -8,10 +8,18 @@ multidimensional array results in a one-dimensional array containing every
 element. For example, flattening `[0, [1], [2, 3], [4, [5, 6, [7, 8]]]]` results
 in `[0, 1, 2, 3, 4, 5, 6, 7, 8]`.
 
-Be sure to include a recent [`LICENSE`](LICENSE) and Markdown linter
-configuration ([`.remarkrc`](.remarkrc)). Also, include an appropriate
-`.gitignore`; these are usually found in specific technology templates, for
-example [js-template](https://www.github.com/ga-wdi-boston/js-template).
+Create an `Array` method named `flatten()` that, when invoked on an array,
+returns a flattened array. Empty arrays should be discarded. For example,
+
+```javascript
+const array = [0, [1], [2, [3], []], []];
+const flattenedArray = array.flatten();
+
+// All of the following calls will print [0, 1, 2, 3].
+console.log([0, [1], [2, [3], []], []].flatten());
+console.log(array.flatten());
+console.log(flattenedArray);
+```
 
 ## Prerequisites
 

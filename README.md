@@ -44,16 +44,14 @@ cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
 
 ## Requirements
 
-Describe behavioral requirements as you'll be using them in tests. That is,
-list requirements in language that describes how the written code will be used,
-not how it will be written, with the exception of constraints you may wish to
-place on implementation. It's a good idea to include the below paragraph
-verbatim.
-
-You should be running `grunt nag` before diagnosing any bugs, since it finds
-some of the most common sources of errors. After `grunt nag` passes, you should
-run `grunt test` to run the included tests. Tests will tell you whether of not
-you've met these requirements.
+*   `flatten()`
+    *   is a method defined on `Array`'s prototype.
+    *   does not have any parameters.
+*   `flatten()`'s return value
+    *   is an array.
+    *   does not contain any arrays.
+    *   contains every non-array element from the original array and any nested
+        arrays.
 
 ## Bonus
 
@@ -67,3 +65,4 @@ Sometimes, we ask questions that promote thinking critically about code.
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
 1.  All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
+ls

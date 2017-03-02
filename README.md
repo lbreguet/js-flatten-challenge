@@ -23,13 +23,9 @@ console.log(flattenedArray);
 
 ## Prerequisites
 
--   Topics with which developers should be familiar with.
--   Prerequisites are "just-in-time", so if I have a prerequisite that mentions
-    Sass, I would **not** need to include CSS as a prerequisite.
--   [Links to previous materials](https://www.github.com/ga-wdi-boston/example)
-    are often useful.
--   In a challenge, it is useful to link to reference material, such as talk
-    repositories.
+-   [Array - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+-   [JavaScript Array Methods](https://github.com/ga-wdi-boston/js-array-methods)
+-   [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_%28computer_science%29)
 
 ## Instructions
 

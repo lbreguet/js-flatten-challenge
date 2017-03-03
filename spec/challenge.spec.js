@@ -23,7 +23,7 @@ describe('flatten()\'s return value', () => {
     [0, [1], [[2], 3], [[[4], 5], 6]],
     [0, [1], [2, [3]], [4, [5], [6, [7]]]],
     [0, [1, []], [2, [], [3]], [4, [], [5, [], [6]], [[[[7], 8, [9]]]]]],
-    [0, [1], [true, false], [['', 'string'], [[{}], []]], [[null], [undefined]]]
+    [[0, 1], [true, false], [['', 'string'], [{}, []]], [[null], [undefined]]],
   ];
   const flattenedArrays = [
     [],
@@ -33,7 +33,7 @@ describe('flatten()\'s return value', () => {
     [0, 1, 2, 3, 4, 5, 6],
     [0, 1, 2, 3, 4, 5, 6, 7],
     [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-    [0, 1, true, false, '', 'string', {}, null, undefined]
+    [0, 1, true, false, '', 'string', {}, null, undefined],
   ];
 
   it('is an array', () => {

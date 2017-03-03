@@ -1,7 +1,7 @@
 'use strict';
 
 // Allow chai syntax like `expect(foo).to.be.ok;`
-// jshint -W030
+// jshint -W030, -W079
 
 const chai = require('chai');
 const expect = chai.expect;

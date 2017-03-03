@@ -2,9 +2,7 @@
   "name": "ga-wdi-boston.node-template",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "start": "node bin/index.js"
-  },
+  "scripts": {},
   "license": {
     "software": "GNU GPLv3",
     "content": "CC­BY­NC­SA 4.0"

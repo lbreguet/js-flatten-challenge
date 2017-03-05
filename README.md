@@ -55,10 +55,7 @@ cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
 
 ## Bonus
 
-Bonuses are described after the requirements, if included. They should be worked
-on **only after** passing requirements.
 
-Sometimes, we ask questions that promote thinking critically about code.
 
 ## Tasks
 

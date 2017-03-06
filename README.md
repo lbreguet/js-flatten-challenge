@@ -58,6 +58,7 @@ cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
 Add a parameter to `flatten()` that determines how many levels of nesting it
 should flatten.  For example:
 ```javascript
+[0, [1], [[2]]].flatten();  // [0, 1, 2].
 [0, [1], [[2]]].flatten(0); // [0, [1], [[2]]].
 [0, [1], [[2]]].flatten(1); // [0, 1, [2]].
 [0, [1], [[2]]].flatten(2); // [0, 1, 2].

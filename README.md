@@ -53,10 +53,6 @@ cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
     *   contains every non-array element from the original array and any nested
         arrays.
 
-## Bonus
-
-
-
 ## Tasks
 
 Developers should run these often!

@@ -53,6 +53,16 @@ cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
     *   contains every non-array element from the original array and any nested
         arrays.
 
+# Bonus
+
+Add a parameter to `flatten()` that determines how many levels of nesting it
+should flatten.  For example:
+```javascript
+[0, [1], [[2]]].flatten(0); // [0, [1], [[2]]].
+[0, [1], [[2]]].flatten(1); // [0, 1, [2]].
+[0, [1], [[2]]].flatten(2); // [0, 1, 2].
+```
+
 ## Tasks
 
 Developers should run these often!
